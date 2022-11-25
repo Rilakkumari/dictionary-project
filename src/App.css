@@ -1,28 +1,29 @@
-body{
-  background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
-
+body {
+  background: linear-gradient(
+    110.5deg,
+    rgba(248, 196, 249, 0.66) 22.8%,
+    rgba(253, 122, 4, 0.15) 64.6%
+  );
 }
 
-a{
+a {
   color: #7f6fd1;
 }
 
-h1{
+h1 {
   font-family: pacifico;
   font-size: 60px;
 }
 
-.App{
+.App {
   max-width: 950px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
-.App-header{
- margin: 50px;
- text-align: center;
-
+.App-header {
+  margin: 70px;
+  text-align: center;
 }
-
 
 .App-footer {
   text-align: center;
