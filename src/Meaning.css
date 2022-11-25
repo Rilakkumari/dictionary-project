@@ -7,5 +7,6 @@
 .Meaning .example{
     font-size: 14px;
     font-style: italic;
+    opacity: 70%;
     margin-top: 10px;
 }
