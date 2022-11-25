@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,13 +6,21 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <h1>What are you looking for? </h1>
         </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Mari Kubota</small>
+          <small>
+            Coded by{" "}
+            <a href="https://frosty-gates-0d210d.netlify.app/"> Mari Kubota</a>.
+            Open Source on {""}
+            <a href="https://github.com/Rilakkumari/dictionary-project">
+              Github
+            </a>
+            .
+          </small>
         </footer>
       </div>
     </div>
